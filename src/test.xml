@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<police_records>
+    <crime>
+        <title>crime testasdf title</title>
+        <time>10:35:23</time>
+        <area>Reading</area>
+        <address>Somewhere in Reading</address>
+        <priority>medium</priority>
+        <description>This is a test to check if this XML DOM stuff works!!!!</description>
+        <victims>
+            <victim>
+                <national_id>123</national_id>
+                <age>25</age>
+                <first_name>Bob</first_name>
+                <last_name>Builder</last_name>
+            </victim>
+            <victim>
+                <national_id>345</national_id>
+                <age>18</age>
+                <first_name>Someone</first_name>
+                <last_name>Else</last_name>
+            </victim>
+        </victims>
+        <witnesses>
+            <witness>
+                <national_id>466</national_id>
+                <first_name>Dank</first_name>
+                <last_name>Lenny</last_name>
+            </witness>
+            <witness>
+                <national_id>899</national_id>
+                <age>29</age>
+                <first_name>Rare</first_name>
+                <last_name>Pepe</last_name>
+            </witness>
+        </witnesses>
+        <evidence>
+            <item type="weapon">
+                <title>knife</title>
+                <details>a kitchen knife that was used to brutally murder the bar of butter</details>
+            </item>
+            <item type="attire">
+                <title>t-shirt</title>
+                <details>a t-shirt that was worn by one of the suspects bearing the mark of spread butter!</details>
+            </item>
+        </evidence>
+    </crime>
+</police_records>
